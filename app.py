@@ -6,7 +6,7 @@ password = "xyz"
 @app.route("/")
 def hello():
     print(password)
-    return "hello world!"
+    return "Hello, This is CodeQL demo!"
 
 if __name__ == "__main__":
     app.run()
